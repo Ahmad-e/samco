@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { useSelector } from 'react-redux';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Projects from './pages/projects';
+import Services from './pages/services';
+import ContactUs from './pages/contactUs';
+import Home from './pages/home';
+import Header from './components/header';
+import Err from './components/err404';
+import Down from './components/down'
 
 function App() {
+  const color = useSelector((state) => state.counter.mode);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"App "+color}>
+      <BrowserRouter>
+      <Header/>
+        <Routes>
+
+            <Route index element={<Home />} />
+            <Route path="services" element={<Services />} />
+            <Route path="contactUs" element={<ContactUs />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="*" element={<Err />} />
+        </Routes>
+        <Down/>
+      </BrowserRouter>
     </div>
   );
 }
