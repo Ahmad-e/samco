@@ -62,8 +62,8 @@
 /* home classes start */
 .top-home
 {
-  height: 580px;
-  opacity: 0.65;
+  height: 630px;
+  opacity: 0.5;
 }
 .div-top
 {
@@ -86,13 +86,13 @@ h5 {
   padding: 10px;
   display: inline;
   font-family: monospace;
-
 }
 @media (max-width: 410px)
 {
   .section{ font-size: 22px; }
   .div-top{ padding: 20px; }
-  .img-info{ width:150px;height: 100px; }
+  .top-home{ height: 550px; }
+  .img-info{ width:150px; height: 100px; }
 }
 .img-about
 {
@@ -142,7 +142,7 @@ h5 {
   border-color: var(--main-color);
   margin: 5%;
   width: 75%;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 .center
 {
