@@ -17,6 +17,18 @@ const Services = () =>{
                 <div className="text3" >SAMCO services combine best practices, environmentally sound operations, innovative technologies, and high quality support focused at helping our customers increase productivity and efficiency.</div><br/>
             </Col>
             <Row className="justify-content-center serv-sec">
+                <Col lg={7} md={6} sm={12}>
+                    <div className="contain">
+                        <div className="text1"> Commissioning of Oil and Gas pipelines </div>
+                        <div className="text3" > Professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions </div>
+                    </div>
+                </Col>
+                <Col lg={5} md={6} sm={8}>
+                <img className="img-about2" src={s3} />
+                </Col>
+                <hr className="h-r"/>
+            </Row>
+            <Row className="justify-content-center serv-sec">
                 <Col lg={5} md={6} sm={8}>
                     <img className="img-about" src={s1} />
                 </Col>
@@ -26,6 +38,7 @@ const Services = () =>{
                         <div className="text3" >company has the qualified groups to perform the required mechanical activity of pipe lines and oil and gas facilities according to the international standard and codes which respect the safety and quality. </div>
                     </div>
                 </Col>
+                <hr className="h-r"/>
             </Row>
             <Row className="justify-content-center serv-sec">
                 <Col lg={7} md={6} sm={12}>
@@ -37,6 +50,7 @@ const Services = () =>{
                 <Col lg={5} md={6} sm={8}>
                 <img className="img-about2" src={s2} />
                 </Col>
+                <hr className="h-r"/>
             </Row>
             <Row className="justify-content-center serv-sec">
                 <Col lg={5} md={6} sm={8}>
@@ -49,6 +63,7 @@ const Services = () =>{
                             </div>
                     </div>
                 </Col>
+                <hr className="h-r"/>
             </Row>
             
             <Row className="justify-content-center serv-sec">
@@ -62,6 +77,7 @@ const Services = () =>{
                 <Col lg={5} md={6} sm={8}>
                 <img className="img-about2" src={s4} />
                 </Col>
+                <hr className="h-r"/>
             </Row>
 
             <Row className="justify-content-center serv-sec">
@@ -74,7 +90,7 @@ const Services = () =>{
                         <div className="text3" > We have the special procedures and method statements which covers the best solutions to get the best results concerning to the international codes  and standard </div>
                     </div>
                 </Col>
-
+                <hr className="h-r"/>
             </Row>
         </Container>
     )

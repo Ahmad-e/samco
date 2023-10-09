@@ -10,7 +10,7 @@ import Message from '../images/message'
 import { useSelector } from 'react-redux';
 
 import s1 from '../images/serv1.jpg';
-import s2 from '../images/serv2.jpg';
+import s4 from '../images/serv4.png';
 import s3 from '../images/serv3.jpg';
 
 import p19 from '../images/p19.jpg';
@@ -73,7 +73,7 @@ const Home = () =>{
                         </Col>
                         <Col className="center Card" lg={3}  sm={5} xs={10}>
                             
-                                <img className="card-img" src={s2} />
+                                <img className="card-img" src={s3} />
                                 <div className="contain">
                                     <div className="text1"> Commissioning of Oil and Gas pipelines </div>
                                     <div className="text3" > Professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions
@@ -82,10 +82,11 @@ const Home = () =>{
                         </Col>
                         <Col className="center Card"  lg={3}  sm={5} xs={10}>
                             
-                                <img className="card-img" src={s3} />
+                                <img className="card-img" src={s4} />
                                 <div className="contain">
-                                    <div className="text1"> Project management </div>
-                                    <div className="text3" > special procedures and method statements which covers the best solutions to get the best results concerning to the international codes  and standard
+                                    <div className="text1"> Civil and mechanical construction </div>
+                                    <div className="text3" > We have the certified and qualified group for the most difficult and sensitive lifting process which are doing according to the risk assessment and lifting method statement .
+We have professional riggers and lifting planners who are performing the duties in very difficult circumstances concerning to the height and complicated places
                                         </div>
                                 </div>
                         </Col>

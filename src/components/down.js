@@ -71,7 +71,7 @@ const Down = () =>{
                 
             </Container>
             <Col className="center">
-                developed by <Nav.Link style={{ display :"inline" }} variant="link" href="mailto:homseahmad07@gmail.com" > Eng.ahmad</Nav.Link>
+                developed by <Nav.Link style={{ display :"inline" }} variant="link" href="mailto:homseahmad07@gmail.com" > Eng.Ahmad</Nav.Link>
             </Col>
         </div>
     )
