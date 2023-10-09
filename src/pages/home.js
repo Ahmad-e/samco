@@ -22,15 +22,20 @@ const Home = () =>{
     const color = useSelector((state) => state.counter.mode);
     return(
             <>
-                <Col lg={12} xs={12} className="top-home" style={{background: `url(${main}) 22% 18% / cover no-repeat`  }}>
+                <Col lg={12} xs={12} className="top-home" style={{background: `url(${main}) 0% 0% / cover no-repeat`  }}>
 
                 </Col>
                 <Col lg={8} xs={12} className="div-top">
                     <h2 className="main-color" >SAMCO company </h2>
-                    <h4 >Provide cost-effective and satisfactory<br/> performance capabilities to meet our customers needs. </h4>
-                    
+                    <h4 > </h4>
+                    <h3>
+                    Provide cost-effective and satisfactoryperformance capabilities to meet our customers needs.
+                    </h3>
+                    <div className="text3">Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities.
+                    <br/> Offering include medium and large scale projects for local and  International clients . </div>
+                        
                 </Col>
-                <Container>
+                {/*<Container>
                     <Row className="justify-content-center">
                         <Col lg={12} xs={12} >
                             <div className="center-align"> <p className="section main-color" > ABOUT US </p></div>
@@ -49,7 +54,7 @@ const Home = () =>{
                         <hr className="h-r"/>
                     </Row>
                     
-                </Container>
+                </Container>*/}
                 
                 <Container>
                     <Row className="justify-content-center">
@@ -70,8 +75,8 @@ const Home = () =>{
                             
                                 <img className="card-img" src={s2} />
                                 <div className="contain">
-                                    <div className="text1"> commissioning of Oil and Gas pipelines </div>
-                                    <div className="text3" > professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions
+                                    <div className="text1"> Commissioning of Oil and Gas pipelines </div>
+                                    <div className="text3" > Professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions
                                     </div>
                                 </div>
                         </Col>
@@ -118,7 +123,7 @@ const Home = () =>{
                         <Col lg={4}  sm={5} xs={10}>
                             <img className="card-img2" src={p21} />
                             <div className="project-text" >
-                                <div className="text1"> maintenance of (four) kerosene tanks including </div>
+                                <div className="text1"> Maintenance of (four) kerosene tanks including </div>
                                 <div className="text3" > Maintenance for the floating roof 
                                                             Install a new roof gasket 
                                                             Maintenance of side walls 

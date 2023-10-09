@@ -45,17 +45,30 @@
 {
   z-index: 2;
 }
-
+.img-info
+{
+  width: 250px;
+  height: 150px;
+  transition: ease-in-out .3s ;
+  object-fit: cover;
+}
+.img-info:hover
+{
+  border-style: solid;
+  border-color: var(--main-color);
+  border-width: 5px;
+  transform:scale(1.1);
+}
 /* home classes start */
 .top-home
 {
-  height: 550px;
-  opacity: 0.6;
+  height: 580px;
+  opacity: 0.65;
 }
 .div-top
 {
   position: absolute;
-  top: 160px;
+  top: 120px;
   left: 0;
   z-index: 1;
   padding: 50px;
@@ -75,6 +88,12 @@ h5 {
   font-family: monospace;
 
 }
+@media (max-width: 410px)
+{
+  .section{ font-size: 22px; }
+  .div-top{ padding: 20px; }
+  .img-info{ width:150px;height: 100px; }
+}
 .img-about
 {
   height: 300px;
@@ -90,6 +109,11 @@ h5 {
   object-fit: cover;
   border-radius: 0px 25px 25px 0px;
   
+}
+@media (max-width: 767px)
+{
+  .img-about{ border-radius: 25px 25px 0px 0px ; }
+  .img-about2{ border-radius: 25px 25px 0px 0px ; }
 }
 .contain
 {
@@ -138,7 +162,7 @@ h5 {
   padding: 0px;
   margin: 15px;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 0 #161616, 0 1px 14px 1px #161616;
+  box-shadow: 1px 0.5px 0.5px 0 #161616, 0 1px 10px 1px #161616;
   transition: ease-in-out .3s ;
 }
 .Card:hover
