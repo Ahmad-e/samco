@@ -10,7 +10,7 @@ import Header from './components/header';
 import Err from './components/err404';
 import Down from './components/down'
 import About from './pages/about'
-
+import Safety from './pages/safety'
 function App() {
   const color = useSelector((state) => state.counter.mode);
   return (
@@ -25,6 +25,7 @@ function App() {
             <Route path="aboutUs" element={<About />} />
             <Route path="contactUs" element={<ContactUs />} />
             <Route path="projects" element={<Projects />} />
+            <Route path="safety" element={<Safety />} />
             <Route path="*" element={<Err />} />
         </Routes>
         <Down/>

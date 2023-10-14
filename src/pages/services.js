@@ -19,8 +19,10 @@ const Services = () =>{
             <Row className="justify-content-center serv-sec">
                 <Col lg={7} md={6} sm={12}>
                     <div className="contain">
-                        <div className="text1"> Commissioning of Oil and Gas pipelines </div>
-                        <div className="text3" > Professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions </div>
+                        <div className="text1"> Construction and commissioning of oil and gas pipe line and flow lines </div>
+                        <div className="text3" > - All the civil work (surveying& trenching &road and river crossing) 
+                            <br/>- All the electrical work (cathodic protection system& instrument & fiber optic) 
+                            <br/>- Cleaning& testing and pigging  </div>
                     </div>
                 </Col>
                 <Col lg={5} md={6} sm={8}>
@@ -34,8 +36,10 @@ const Services = () =>{
                 </Col>
                 <Col className lg={7} md={6} sm={12}>
                     <div className="contain">
-                        <div className="text1"> Construction and Commissioning of Oil and Gas production facilities </div>
-                        <div className="text3" >company has the qualified groups to perform the required mechanical activity of pipe lines and oil and gas facilities according to the international standard and codes which respect the safety and quality. </div>
+                        <div className="text1"> Construction of mechanical work of the oil and gas and power stations refineries </div>
+                        <div className="text3" >- Piping work 
+                        <br/>- Vessels and skids installation 
+                        <br/>- Still structure fabrication& installation </div>
                     </div>
                 </Col>
                 <hr className="h-r"/>
@@ -44,7 +48,9 @@ const Services = () =>{
                 <Col lg={7} md={6} sm={12}>
                     <div className="contain">
                         <div className="text1"> Construction all types of tanks and vessels </div>
-                        <div className="text3" >  </div>
+                        <div className="text3" > - Crude oil& water and spherical tanks 
+                        <br/>- Testing 
+                        <br/>- Civil work  </div>
                     </div>
                 </Col>
                 <Col lg={5} md={6} sm={8}>
@@ -58,8 +64,9 @@ const Services = () =>{
                 </Col>
                 <Col lg={7} md={6} sm={12}>
                     <div className="contain">
-                        <div className="text1"> performing professionally all types of paint and insulation  </div>
-                        <div className="text3" > Our paint and insulation  department   supplied by the modern equipment and certified inspectors and professional group  to perform  many types of paint and insulation which is matching the international codes and standard and approved method statement from many clients .
+                        <div className="text1"> Painting &sand blasting &insulation  </div>
+                        <div className="text3" >- Piping& steel structure sand blasting and painting and insulation 
+                        <br/>- Tanks& vessels sand blasting &painting& insulation 
                             </div>
                     </div>
                 </Col>
@@ -70,8 +77,9 @@ const Services = () =>{
                 <Col lg={7} md={6} sm={12}>
                     <div className="contain">
                         <div className="text1"> Civil and mechanical construction </div>
-                        <div className="text3" > We have the certified and qualified group for the most difficult and sensitive lifting process which are doing according to the risk assessment and lifting method statement . </div>
-                        <div className="text3" > We have professional riggers and lifting planners who are performing the duties in very difficult circumstances concerning to the height and complicated places  </div>
+                        <div className="text3" > - Surveying & levelling 
+                        <br/>- All the facilities road& crossing & tunnels& building 
+                        <br/>- Pipe rack basis& tanks basis & vessels and skids basis </div>
                     </div>
                 </Col>
                 <Col lg={5} md={6} sm={8}>
@@ -86,8 +94,10 @@ const Services = () =>{
                 </Col>
                 <Col lg={7} md={6} sm={12}>
                     <div className="contain">
-                        <div className="text1">perform the maintenance of  Pipe line & tanks and vessels & pipes & pumps & valves .</div>
-                        <div className="text3" > We have the special procedures and method statements which covers the best solutions to get the best results concerning to the international codes  and standard </div>
+                        <div className="text1"> Maintenance work  </div>
+                        <div className="text3" > - Pipe line maintenance 
+                        <br/>- Tanks maintenance 
+                        <br/>- Piping &steel structure maintenance </div>
                     </div>
                 </Col>
                 <hr className="h-r"/>

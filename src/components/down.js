@@ -39,6 +39,9 @@ const Down = () =>{
                         className="d-inline-block align-top"
                         />)}
                     </h2>
+                    <div className="text2" >info@samco-c.com</div>
+                    <div className="text3" >00963 944536262</div>
+                    <div className="text3" >00963 113322464</div>
                     </div>
                     <div className="d-flex flex-column mt-lg-4 justify-content-center align-items-center">
                         <h4>Contact Us</h4>

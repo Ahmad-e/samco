@@ -27,11 +27,7 @@ const Home = () =>{
                 </Col>
                 <Col lg={8} xs={12} className="div-top">
                     <h2 className="main-color" >SAMCO company </h2>
-                    <h4 > </h4>
-                    <h3>
-                    Provide cost-effective and satisfactoryperformance capabilities to meet our customers needs.
-                    </h3>
-                    <div className="text3">Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities.
+                    <div className="text3" style={{ fontSize : "20px" }}>Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities.
                     <br/> Offering include medium and large scale projects for local and  International clients . </div>
                         
                 </Col>
@@ -59,7 +55,7 @@ const Home = () =>{
                 <Container>
                     <Row className="justify-content-center">
                         <Col lg={12} xs={12}>
-                        <div className="center-align"> <p className="section main-color" > TOP SERVISES </p></div>
+                        <div className="center-align"> <p className="section main-color" > CORE SERVISES </p></div>
                         </Col>
                         <Col className="center Card"  lg={3}  sm={5} xs={10}>
                             
