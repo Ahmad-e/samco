@@ -13,15 +13,15 @@ const ContactUs = () =>{
             
             <Row className="justify-content-center">
                 <Col className="center" xl={3} lg={4} md={12} sm={12}>
-                    <img className="img-info" src={o1} />
-                    <img className="img-info" src={o2} />
-                    <img className="img-info" src={o3} />
-                    <img className="img-info" src={s2} />
+                <br/>
+                    <img className="img-info" style={{ margin: "10px" }} src={o1} />
+                    <img className="img-info" style={{ margin: "10px" }} src={o2} />
+                    <img className="img-info" style={{ margin: "10px" }} src={o3} />
                 </Col>
                 <Col lg={6} md={8} sm={12} className="contain pd">
-                    <div className="text1"> <h2> What we offer </h2></div>
+                    <div className="text1"> <h2>  </h2></div>
                    
-                    <div className="text2" > As a Construction company, the management and employees of SAMCO are committed to:</div><br/>
+                    <div className="text1" > As a Construction company, the management and employees of SAMCO are committed to:</div><br/>
                     <ul>
                         <li className="text3">
                         Carry out projects in accordance with the established contractual needs of our clients

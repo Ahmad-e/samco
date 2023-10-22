@@ -49,7 +49,6 @@ const Home = () =>{
                         </Col>
                         <hr className="h-r"/>
                     </Row>
-                    
                 </Container>*/}
                 
                 <Container>
@@ -60,30 +59,24 @@ const Home = () =>{
                         <Col className="center Card"  lg={3}  sm={5} xs={10}>
                             
                                 <img className="card-img" src={s1} />
-                                <div className="contain">
-                                    <div className="text1"> Construction of Oil and Gas production facilities </div>
-                                    <div className="text3" >
-                                    company has the qualified groups to perform the required mechanical activity of pipe lines and oil and gas facilities according to the international standard and codes which respect the safety and quality
-                                    </div>
+                                <div className="contain center">
+                                    <div className="text1" style={{ fontSize:"18px" }}> Construction of Oil and Gas facilities   </div>
+                                    
                                 </div>
                         </Col>
                         <Col className="center Card" lg={3}  sm={5} xs={10}>
                             
                                 <img className="card-img" src={s3} />
-                                <div className="contain">
-                                    <div className="text1"> Commissioning of Oil and Gas pipelines </div>
-                                    <div className="text3" > Professional groups who have the capability to achieve the required  pipeline activities which including (stringing & welding &lowering & testing ) with specialized people to achieve the activities in the  hard conditions
-                                    </div>
+                                <div className="contain center">
+                                    <div className="text1" style={{ fontSize:"18px" }} > Commissioning and Construction of Oil and Gas pipelines </div>
                                 </div>
                         </Col>
                         <Col className="center Card"  lg={3}  sm={5} xs={10}>
                             
                                 <img className="card-img" src={s4} />
-                                <div className="contain">
-                                    <div className="text1"> Civil and mechanical construction </div>
-                                    <div className="text3" > We have the certified and qualified group for the most difficult and sensitive lifting process which are doing according to the risk assessment and lifting method statement .
-We have professional riggers and lifting planners who are performing the duties in very difficult circumstances concerning to the height and complicated places
-                                        </div>
+                                <div className="contain center">
+                                    <div  className="text1" style={{ fontSize:"18px" }} > Construction all the civil work of the oil and gas facilities </div>
+                                    
                                 </div>
                         </Col>
                         <Row className="justify-content-center">
