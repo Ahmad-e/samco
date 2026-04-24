@@ -86,25 +86,6 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            {/*<Container>
-                    <Row className="justify-content-center">
-                        <Col lg={12} xs={12} >
-                            <div className="center-align"> <p className="section main-color" > ABOUT US </p></div>
-                        </Col>
-                        <Col lg={6} md={6} xs={12} >
-                            <img className="img-about" src={about} />
-                        </Col>
-                        <Col className="contain" lg={6} md={6} xs={10} >
-                                <div className="text1"> SAMCO company </div>
-                                <div className="text3" >
-                                     Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities.
-                                     <br/> Offering include medium and large scale projects for local and  International clients .
-                                     <br/>SINCE 2000 SAMCO keeps moving towards building up a distinguished  reference and keeps in mind to become one of the largest companies in Syria and overseas .
-                                </div>
-                        </Col>
-                        <hr className="h-r"/>
-                    </Row>
-                </Container>*/}
 
             <Container>
                 <Row className="justify-content-center">
