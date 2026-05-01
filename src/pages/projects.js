@@ -33,19 +33,65 @@ import lg15 from '../images/lg15.png';
 import lg16 from '../images/lg16.png';
 import lg17 from '../images/lg17.png';
 
-import p1 from '../images/pr_1.jpg';
-import p2 from '../images/pr_2.png';
-import p3 from '../images/pr_3.jpg';
-import p4 from '../images/pr_4.png';
-import p5 from '../images/pr_5.jpg';
-import p6 from '../images/pr_6.jpg';
-import p7 from '../images/pr_7.png';
-import p8 from '../images/pr_8.png';
-import p9 from '../images/pr_9.jpg';
-import p10 from '../images/pr_10.jpg';
-import p11 from '../images/pr_11.jpg';
+import p1_1 from '../images/pr_1_1.jpg';
+import p1_2 from '../images/pr_1_2.png';
+import p1_3 from '../images/pr_1_3.png';
+import p1_4 from '../images/pr_1_4.jpg';
+import p1_5 from '../images/pr_1_5.jpg';
+import p1_6 from '../images/pr_1_6.jpg';
+import p1_7 from '../images/pr_1_7.jpg';
+
+import p2_1 from '../images/pr_2_1.png';
+import p2_2 from '../images/pr_2_2.png';
+import p2_3 from '../images/pr_2_3.jpg';
+import p2_4 from '../images/pr_2_4.jpg';
+
+import p3_1 from '../images/pr_3_1.jpg';
+import p3_2 from '../images/pr_3_2.jpg';
+import p3_3 from '../images/pr_3_3.jpg';
+import p3_4 from '../images/pr_3_4.jpg';
 
 
+import p4_1 from '../images/pr_4_1.png';
+import p4_2 from '../images/pr_4_2.png';
+import p4_3 from '../images/pr_4_3.jpg';
+import p4_4 from '../images/pr_4_4.jpg';
+
+import p5_1 from '../images/pr_5_1.jpg';
+import p5_2 from '../images/pr_5_2.jpg';
+import p5_3 from '../images/pr_5_3.png';
+import p5_4 from '../images/pr_5_4.jpg';
+
+import p6_1 from '../images/pr_6_1.jpg';
+import p6_2 from '../images/pr_6_2.jpg';
+import p6_3 from '../images/pr_6_3.jpg';
+import p6_4 from '../images/pr_6_4.png';
+
+import p7_1 from '../images/pr_7_1.png';
+import p7_2 from '../images/pr_7_2.jpg';
+import p7_3 from '../images/pr_7_3.jpg';
+import p7_4 from '../images/pr_7_4.png';
+
+import p8_1 from '../images/pr_8_1.png';
+import p8_2 from '../images/pr_8_2.jpg';
+import p8_3 from '../images/pr_8_3.png';
+
+import p9_1 from '../images/pr_9_1.jpg';
+import p9_2 from '../images/pr_9_2.png';
+import p9_3 from '../images/pr_9_3.png';
+
+import p10_1 from '../images/pr_10_1.jpg';
+import p10_2 from '../images/pr_10_2.jpg';
+import p10_3 from '../images/pr_10_3.jpg';
+import p10_4 from '../images/pr_10_4.jpg';
+
+import p11_1 from '../images/pr_11_1.jpg';
+import p11_2 from '../images/pr_11_2.jpg';
+import p11_3 from '../images/pr_11_3.jpg';
+import p11_4 from '../images/pr_11_4.jpg';
+
+
+import ImageGallery from '../components/imageGallery'
 
 const Projects = () => {
 
@@ -55,77 +101,100 @@ const Projects = () => {
             location: "Lanaz refinery- Iraq ",
             client: "Lanaz company",
             date: "On going project",
-            image: p1
+            images: [
+                p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7
+            ]
+
         },
         {
             title: " construction of four Naphtha tanks (15000) m3 capacity including piping nets connection",
             location: " Lanaz refinery- Kurdistan- Iraq",
             client: " Lanaz company - Talay Tech ",
             date: "2023",
-            image: p2
+            images: [
+                p2_1, p2_2, p2_3, p2_4
+            ]
         },
         {
             title: "construction of two storage tanks (5000) m3 including piping nets connection",
             location: "Qayyarah field- north of Iraq ",
             client: "NOC- Sonangol ",
             date: "2021",
-            image: p3
+            images: [
+                p3_1, p3_2, p3_3, p3_4
+            ]
         },
         {
             title: " boilers economizer maintenance and development ",
             location: "Banias power station ",
             client: " ministry of power",
             date: "2020",
-            image: p4
+            images: [
+                p4_1, p4_2, p4_3, p4_4
+            ]
         },
         {
             title: "24” crude oil line from NDS to SDS (12) km ",
             location: "Qayyarah field – north of Iraq ",
             client: "NOC- Sonangol",
             date: "2019 ",
-            image: p5
+            images: [
+                p5_1, p5_2, p5_3, p5_4
+            ]
         },
         {
             title: " ADAC- Abu Dhabi new airport, mid field terminal building project. Construction of chilled water / firefighting system piping and steel structure ",
             location: "UAE. Abu Dhabi Airport",
             client: "ADAC - PCEGV, EFFICO - NAFCO ",
             date: "2017",
-            image: p6
+            images: [
+                p6_1, p6_2, p6_3, p6_4
+            ]
         },
         {
             title: "MLE gas plant piping construction. Construction of piping work at flare area-launcher and receivers- spherical tanks",
             location: "Wadi Al Tah- MLE Gas plant – south of Algeria ",
             client: "Sonatrach- ENI-  ",
             date: "2011 ",
-            image: p7
+            images: [
+                p7_1, p7_2, p7_3, p7_4
+            ]
         },
         {
             title: " Teshreen/ Ouda field development ",
             location: "Teshreen/ ouda Field – north east of Syria.",
             client: "Doblin- AFPC ",
             date: "2009",
-            image: p8
+            images: [
+                p8_1, p8_2, p8_3
+            ]
         },
         {
             title: " maintenance of floating roof naphtha tanks in Homs refinery ",
             location: "  Homs Refinery- Syria ",
             client: "Homs refinery company ",
             date: "2018",
-            image: p9
+            images: [
+                p9_1, p9_2, p9_3
+            ]
         },
         {
             title: " Ohanet Gas tweel Gas line (400) km.",
             location: "Elezeh state- south Algeria.",
             client: "Sonatrach- TMCA ",
             date: "2008",
-            image: p10
+            images: [
+                p10_1, p10_2, p10_3, p10_4
+            ]
         },
         {
             title: "water corrugated line (48)” from Quiq river to Aleppo industrial city ",
             location: "north west of Syria- Aleppo ",
             client: "ministry of water resources – Almateen co",
             date: "2007",
-            image: p11
+            images: [
+                p11_1, p11_2, p11_3, p11_4
+            ]
         }
     ]
 
@@ -194,9 +263,10 @@ const Projects = () => {
                 {
                     projectsData.map((item) => {
                         return (
-                            <Col className="center" lg={4} md={6} sm={10} xs={12}>
+                            <Col className="center" lg={6} md={6} sm={12} xs={12}>
                                 <div className='gr'>
-                                    <img className="card-img3" src={item.image} />
+                                    {/* <img className="card-img3" src={} /> */}
+                                    <ImageGallery images={item.images} />
                                     <div className="project-text" >
                                         <div className="text1"> {item.title} </div>
                                         <div className="text2"> Client : <span className="text3" >{item.client}</span>  </div>
