@@ -136,8 +136,8 @@ const Home = () => {
                 backgroundImage: "url(" + main + ")",
                 backgroundSize: "cover",
                 backgroundPosition: "top",
-                height: "600px",
-                textAlign: "center",
+                height: "800px",
+                textAlign: "revert",
                 padding: "70px"
             }} >
                 <h2 className="main-color " >SAMCO Company </h2>
