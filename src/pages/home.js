@@ -135,9 +135,9 @@ const Home = () => {
             <div style={{
                 backgroundImage: "url(" + main + ")",
                 backgroundSize: "cover",
-                backgroundPosition: "top",
+                backgroundPosition: "revert",
                 height: "800px",
-                textAlign: "revert",
+                textAlign: "center",
                 padding: "70px"
             }} >
                 <h2 className="main-color " >SAMCO Company </h2>
