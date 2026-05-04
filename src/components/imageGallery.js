@@ -9,12 +9,12 @@ const App = (props) => {
     return (
         <div>
             <div>
-                <img src={selectedImage} alt="Selected" style={{ width: '100%', height: '300px' }} />
+                <img src={selectedImage} alt="Selected" style={{ width: '100%', height: '300px', borderRadius: "10px" }} />
             </div>
             <div style={{ display: 'flex', marginTop: '10px', overflowX: "scroll" }}>
                 {props.images.map((image, index) => (
                     <img
-                        style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer' }}
+                        style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer', borderRadius: "10px" }}
                         key={index}
                         src={image}
                         onClick={() => setSelectedImage(image)}

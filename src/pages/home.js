@@ -9,9 +9,9 @@ import about from '../images/abuot_us.jpg';
 import Message from '../images/message'
 import { useSelector } from 'react-redux';
 
-import s1 from '../images//ser_1.png';
-import s4 from '../images/ser_3.png';
-import s3 from '../images/ser_2.png';
+import s1 from '../images//ser_1_1.png';
+import s4 from '../images/ser_3_1.png';
+import s3 from '../images/ser_2_1.png';
 
 import p19 from '../images/pr_1_1.jpg';
 import p21 from '../images/pr_2_1.png';
@@ -132,54 +132,13 @@ const Home = () => {
             >
 
             </Col> */}
-            <Carousel style={{ height: carouselHeigt }} fade interval={7000}>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={main} style={{ height: "700px" }} />
-                    <Carousel.Caption style={{ top: "1.25rem" }}>
-                        <h2 className="main-color " >SAMCO Company </h2>
-                        <h4 style={{ fontSize: "20px", color: "black" }}>
-                            Implementing medium and large scale projects for local and international clients.
-                        </h4>
-                        <div className="text3" style={{ fontSize: "16px", color: "black" }}>Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities . </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home1} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home2} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home3} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home4} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home5} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: carouselHeigt }}>
-                    <img className="card-img cars_filter" src={Home6} style={{ height: carouselHeigt }} />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+            <div style={{ backgroundImage: "url(" + main + ")", backgroundSize: "cover", backgroundPosition: "center", height: "600px", textAlign: "center", padding: "30px" }} >
+                <h2 className="main-color " >SAMCO Company </h2>
+                <h4 style={{ fontSize: "20px", color: "black" }}>
+                    Implementing medium and large scale projects for local and international clients.
+                </h4>
+                <div className="text3" style={{ fontSize: "16px", color: "black" }}>Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities . </div>
+            </div>
 
 
             <Container>
@@ -268,11 +227,12 @@ const Home = () => {
             </Container>
             <Container>
                 <Row className="justify-content-center">
-                    <Col lg={12} xs={12}>
-                        <div className="center-align"> <p className="section main-color" > JOIN IN COMPANY </p></div>
+                    <Col lg={6} md={4} sm={12}>
+                        <div style={{ padding: "44px 0px " }} > <p className="section main-color" > JOIN IN COMPANY </p></div>
+                        <div>Contact with us to know more about our company and obtain our services</div><br /><br />
+
                     </Col>
                     <Col lg={6} md={8} sm={12} className="center" >
-                        <div>Contact with us to know more about our company and obtain our services</div><br /><br />
                         <Nav.Link variant="link" href="/contactUs">
                             <Message className="message " />
                         </Nav.Link>
