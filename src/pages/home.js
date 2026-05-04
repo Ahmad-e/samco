@@ -132,13 +132,20 @@ const Home = () => {
             >
 
             </Col> */}
-            <div style={{ backgroundImage: "url(" + main + ")", backgroundSize: "cover", backgroundPosition: "center", height: "600px", textAlign: "center", padding: "30px" }} >
+            <div style={{
+                backgroundImage: "url(" + main + ")",
+                backgroundSize: "cover",
+                backgroundPosition: "top",
+                height: "600px",
+                textAlign: "center",
+                padding: "70px"
+            }} >
                 <h2 className="main-color " >SAMCO Company </h2>
                 <h4 style={{ fontSize: "20px", color: "black" }}>
                     Implementing medium and large scale projects for local and international clients.
                 </h4>
-                <div className="text3" style={{ fontSize: "16px", color: "black" }}>Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline, gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities . </div>
-            </div>
+                <div className="text3" style={{ fontSize: "16px", color: "black" }}>Is a leading privately owned Construction Company offering services for the development of Oil and Gas pipeline,<br /> gathering stations, compressor stations, terminal, tank farms, gas plants, refineries, and other surface facilities . </div>
+            </div >
 
 
             <Container>
